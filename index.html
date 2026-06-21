@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business Card</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Business Card</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="height: 70px;"></div>
+    <section class="container my-5">
+        <div class="row align-items-center p-4 shadow-sm bg-light rounded-4"
+             id="about">
+            <div class="col-md-4 text-center">
+                <img src="image/profile.jpg" alt="Profile Image" class="img-fluid rounded-circle border border-primary border-3">
+            </div>
+            <div class="col-md-8">
+                <h2 class="display-6 fw-bold">Hi, I'm Riham</h2>
+                <p class="lead">Frontend Developer | Web Security Enthusiast
+                I'm an IT Engineering student at Homs University, building my path from Frontend Development toward Application Security (AppSec) and DevSecOps.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">My Skills</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">HTML5</li>
+                            <li class="list-group-item">CSS3</li>
+                            <li class="list-group-item">JavaScript</li>
+                            <li class="list-group-item">Bootstrap</li>
+                            <li class="list-group-item">React</li>
+                            <li class="list-group-item">Git & GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">My Goals</h5>
+                        <p class="card-text">A front-end developer passionate about building secure, user-friendly, and high-performance web applications 
+                            I aim to master modern web technologies and contribute to open-source projects while continuously improving my skills and knowledge.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="container my-5" id="contact">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-body p-4 text-center">
+                    <h4 class="card-title mb-4">Connect With Me</h4>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="https://linkedin.com/in/riham-alkasem" target="_blank" class="btn btn-outline-primary btn-lg">
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/riham-alkasem" target="_blank" class="btn btn-outline-dark btn-lg">
+                            GitHub
+                        </a>
+                        <a href="mailto:alkasemriham@gmail.com" class="btn btn-outline-danger btn-lg">
+                            Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
