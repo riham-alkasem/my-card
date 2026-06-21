@@ -21,9 +21,3 @@ It serves as a digital introduction, showcasing my profile, technical skills, ca
 - **Bootstrap 5** (for layout and responsive components)
 - **Git & GitHub** (for version control)
 
-- **HTML5**
-- **CSS3**
-- **Bootstrap 5** (for layout and responsive components)
-- **Git & GitHub** (for version control)
-
-## 📁 Project Structure
