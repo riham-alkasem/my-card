@@ -3,7 +3,8 @@
 A modern, responsive personal business card website built with **HTML**, **CSS**, and **Bootstrap 5**.
 It serves as a digital introduction, showcasing my profile, technical skills, career goals, and social links.
 
-(image/screenshot.png)
+![Profile Image](image/profile.png)
+![screenshot](image/screenshot.png)
 
 ## 🚀 Features
 
