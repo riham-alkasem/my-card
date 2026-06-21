@@ -4,6 +4,7 @@ A modern, responsive personal business card website built with **HTML**, **CSS**
 It serves as a digital introduction, showcasing my profile, technical skills, career goals, and social links.
 
 ![Profile Image](image/profile.png)
+
 ![screenshot](image/screenshot.png)
 
 ## 🚀 Features
